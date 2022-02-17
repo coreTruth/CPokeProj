@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_item_name_margin_start">16dp</dimen>
+    <dimen name="list_item_types_margin_top">8dp</dimen>
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="detail_title_padding_vertical">20dp</dimen>
+    <dimen name="detail_icon_margin_end">40dp</dimen>
+    <dimen name="detail_padding_horizontal">20dp</dimen>
+    <dimen name="detail_ability_padding_vertical">8dp</dimen>
+</resources>

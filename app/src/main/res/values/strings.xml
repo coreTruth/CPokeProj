@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="icon">Icon</string>
+    <string name="load_more">Load More</string>
+    <string name="types">Types : </string>
+    <string name='speed'>Speed</string>
+    <string name="attack">Attack</string>
+    <string name="defense">Defense</string>
+    <string name="ability">Abilities</string>
+    <string name="fail_fetch">Failed to fetch page data</string>
+</resources>
