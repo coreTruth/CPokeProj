@@ -11,6 +11,9 @@ data class PokemonItemUI(
     var typeString: String? = null,
     var isLoadMoreButton: Boolean = false
 ): Serializable  {
-    fun getStatValue(statName: String) =
-        stats.firstOrNull { stat -> stat.stat.name == statName }
+    fun getStateString(statName: String): String {
+        val stat = stats.firstOrNull { stat -> stat.stat.name == statName }
+        return "BaseStart = " + stat?.baseStat.toString() + " , effort = " + stat?.effort.toString()
+    }
+
 }
